@@ -10,4 +10,8 @@ For older Versions clone the repo or extract the zip file and use it like:
 ```bash
 python manage.py startapp --template=extracted/folder/bottemplate <app_name>
 ```
+Further reading on app templates:
+https://docs.djangoproject.com/en/3.0/ref/django-admin/#startapp
+https://docs.djangoproject.com/en/3.0/ref/templates/api/#django.template.Context
+
 Add the bot token to DJANGO_TELEGRAMBOT in the settings.py of your project and the bot is ready.
